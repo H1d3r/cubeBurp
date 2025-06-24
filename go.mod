@@ -1,6 +1,6 @@
 module cube
 
-go 1.16
+go 1.23.0
 
 require (
 	github.com/JKme/go-ntlmssp v1.2.6
@@ -17,7 +17,26 @@ require (
 	github.com/spf13/cobra v1.1.3
 	github.com/stacktitan/smb v0.0.0-20190531122847-da9a425dceb8
 	github.com/xuri/excelize/v2 v2.5.0
-	golang.org/x/crypto v0.0.0-20210711020723-a769d52b0f97
-	golang.org/x/text v0.3.6
+	golang.org/x/crypto v0.35.0
+	golang.org/x/text v0.22.0
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22
+)
+
+require (
+	github.com/PuerkitoBio/goquery v1.8.0 // indirect
+	github.com/andybalholm/cascadia v1.3.1 // indirect
+	github.com/golang-sql/civil v0.0.0-20190719163853-cb61b32ac6fe // indirect
+	github.com/golang-sql/sqlexp v0.0.0-20170517235910-f1bb20e5a188 // indirect
+	github.com/hashicorp/errwrap v1.0.0 // indirect
+	github.com/hashicorp/go-multierror v1.1.1 // indirect
+	github.com/inconshreveable/mousetrap v1.0.0 // indirect
+	github.com/mattn/go-runewidth v0.0.9 // indirect
+	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
+	github.com/richardlehane/mscfb v1.0.3 // indirect
+	github.com/richardlehane/msoleps v1.0.1 // indirect
+	github.com/spf13/pflag v1.0.5 // indirect
+	github.com/twmb/murmur3 v1.1.6 // indirect
+	github.com/xuri/efp v0.0.0-20210322160811-ab561f5b45e3 // indirect
+	golang.org/x/net v0.25.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
 )
